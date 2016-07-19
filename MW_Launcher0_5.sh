@@ -1,15 +1,20 @@
 #!/bin/bash
+#This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #NFS MW 1.4 and 2.0  Community Patch Launcher for Linux
-#Version 0.4.1 Beta
+#Version 0.5 Beta
 #DO NOT DISTRIBUTE THIS BETA VERSION!!!!!111
-#Copyleft Haru Jayasekara/linuxfanatic 2016
+#Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016
 #Do whatever you want with this, I don't care.
 #ThirteenAG's Widescreen Fix WILL NOT WORK when ExOps is disabled as they both use the same DLL file.
 echo -e NFSMW 1.4 and 2.0 Community Patch Launcher for UNIX-Like Operating Systems
 sleep 1
+echo -e Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016 under MPL 2.0 License
+sleep 1
 echo -e Linux Build 17/7/2016
 sleep 1
-echo -e Version 0.4.1 BETA Codename 'Skyline'
+echo -e Version 0.5 BETA Codename 'Skyline'
 sleep 1
 echo -e DO NOT distribute this beta version.
 sleep 1
