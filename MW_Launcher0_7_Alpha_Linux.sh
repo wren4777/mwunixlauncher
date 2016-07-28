@@ -4,7 +4,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #NFS MW 1.4 and 2.0  Community Patch Launcher for Linux
 #Version 0.5 Beta
-#DO NOT DISTRIBUTE THIS BETA VERSION!!!!!111
+#DO NOT DISTRIBUTE THIS ALPHA VERSION!!!!!111
 #Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016
 #Do whatever you want with this, I don't care.
 #ThirteenAG's Widescreen Fix WILL NOT WORK when ExOps is disabled as they both use the same DLL file.
@@ -14,9 +14,9 @@ echo -e Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016 under MPL 2.0 Licens
 sleep 1
 echo -e Linux Build 19/7/16
 sleep 1
-echo -e Version 0.5 BETA Codename 'Skyline'
+echo -e Version 0.5 BETA Codename 'Silvia'
 sleep 1
-echo -e DO NOT distribute this beta version.
+echo -e DO NOT distribute this alpha version.
 sleep 1
 echo -e Check out the patch thread at http://www.gtrcars.net/forum/showthread.php?t=1948
 sleep 1
