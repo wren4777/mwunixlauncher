@@ -34,9 +34,9 @@ case "$choice" in
 #Edit the next line to run without Mod Loader but with ExOps
   2 ) /usr/share/playonlinux/playonlinux --run "speed" %F;;
 #Edit the next line to run with Mod Loader but without ExOps
-  3 ) cd "/home/haru/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/" && mv NFSMWExtraOptions.asi ~/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F -mod && sleep 0.5 && cd ~/Documents && mv NFSMWExtraOptions.asi "/home/haru/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/NFSMWExtraOptions.asi";;
+  3 ) cd "/home/haru/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/" && mv NFSMWExtraOptions.asi ~/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F -mod && cd ~/Documents && mv NFSMWExtraOptions.asi "/home/haru/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/NFSMWExtraOptions.asi";;
 #Edit the next line to run without Mod Loader and without ExOps
-  4 ) cd "/home/haru/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/" && mv NFSMWExtraOptions.asi ~/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F && sleep 0l5 && cd ~/Documents && mv NFSMWExtraOptions.asi "/home/haru/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/NFSMWExtraOptions.asi";;
+  4 ) cd "/home/haru/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/" && mv NFSMWExtraOptions.asi ~/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F && cd ~/Documents && mv NFSMWExtraOptions.asi "/home/haru/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/NFSMWExtraOptions.asi";;
   * ) echo "Invalid, please launch again";;
 esac
 sleep 1
