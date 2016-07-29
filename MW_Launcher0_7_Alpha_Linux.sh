@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #NFS MW 1.4 and 2.0  Community Patch Launcher for Linux
-#Version 0.5 Beta
+#Version 0.7 Alpha Codename 'Silvia'
 #DO NOT DISTRIBUTE THIS ALPHA VERSION!!!!!111
 #Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016
 #Do whatever you want with this, I don't care, as long as you redistribute your modified files under a FSF-certified License.
