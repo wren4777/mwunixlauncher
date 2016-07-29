@@ -13,7 +13,7 @@ echo -e Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016 under MPL 2.0 Licens
 sleep 1
 echo -e Linux Build 19/7/16
 sleep 1
-echo -e Version 0.5 BETA Codename 'Silvia'
+echo -e Version 0.7 ALPHA Codename 'Silvia'
 sleep 1
 echo -e DO NOT distribute this alpha version.
 sleep 1
@@ -34,9 +34,9 @@ case "$choice" in
 #Edit the next line to run without Mod Loader but with ExOps
   2 ) /usr/share/playonlinux/playonlinux --run "speed" %F;;
 #Edit the next line to run with Mod Loader but without ExOps
-  3 ) cd "/home/haru/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/" && mv NFSMWExtraOptions.asi ~/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F -mod && cd ~/Documents && mv NFSMWExtraOptions.asi "/home/haru/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/NFSMWExtraOptions.asi";;
+  3 ) cd "~/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/" && mv NFSMWExtraOptions.asi ~/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F -mod && cd ~/Documents && mv NFSMWExtraOptions.asi "~/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/NFSMWExtraOptions.asi";;
 #Edit the next line to run without Mod Loader and without ExOps
-  4 ) cd "/home/haru/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/" && mv NFSMWExtraOptions.asi ~/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F && cd ~/Documents && mv NFSMWExtraOptions.asi "/home/haru/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/NFSMWExtraOptions.asi";;
+  4 ) cd "~/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/" && mv NFSMWExtraOptions.asi ~/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F && cd ~/Documents && mv NFSMWExtraOptions.asi "~/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/NFSMWExtraOptions.asi";;
   * ) echo "Invalid, please launch again";;
 esac
 sleep 1
