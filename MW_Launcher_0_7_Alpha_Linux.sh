@@ -29,7 +29,7 @@ read -p "Options:
 *3: No ExOps and Mod Loader
 *4: No ExOps and No Mod Loader" choice
 case "$choice" in 
-#Edit the next line to run with Mod Loader and withExtOps
+#Edit the next line to run with Mod Loader and with ExOps
   1 ) /usr/share/playonlinux/playonlinux --run "speed" %F -mod;;
 #Edit the next line to run without Mod Loader but with ExOps
   2 ) /usr/share/playonlinux/playonlinux --run "speed" %F;;
