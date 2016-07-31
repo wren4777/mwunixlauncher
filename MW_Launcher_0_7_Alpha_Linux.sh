@@ -3,8 +3,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #NFS MW 1.4 and 2.0  Community Patch Launcher for Linux
-#Version 0.7 Alpha Codename 'Silvia'
-#DO NOT DISTRIBUTE THIS ALPHA VERSION!!!!!111
+#Version 0.7.1 BETA Codename 'Silvia'
+#DO NOT DISTRIBUTE THIS BETA VERSION!!!!!111
 #Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016
 #Do whatever you want with this, I don't care, as long as you redistribute your modified files under a FSF-certified License.
 echo -e NFSMW 1.4 and 2.0 Community Patch Launcher for UNIX-Like Operating Systems
@@ -13,9 +13,9 @@ echo -e Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016 under MPL 2.0 Licens
 sleep 1
 echo -e Linux Build 19/7/16
 sleep 1
-echo -e Version 0.7 ALPHA Codename 'Silvia'
+echo -e Version 0.7.1 BETA Codename 'Silvia'
 sleep 1
-echo -e DO NOT distribute this alpha version.
+echo -e DO NOT distribute this BETA version.
 sleep 1
 echo -e Check out the patch thread at http://www.gtrcars.net/forum/showthread.php?t=1948
 sleep 1
