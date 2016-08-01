@@ -12,7 +12,7 @@ echo -e NFSMW 1.4 and 2.0 Community Patch Launcher for UNIX-Like Operating Syste
 sleep 1
 echo -e Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016 under MPL 2.0 License
 sleep 1
-echo -e Linux Build 19/7/16
+echo -e Linux Build 17/7/2016
 sleep 1
 echo -e Version 0.5 BETA Codename 'Skyline'
 sleep 1
