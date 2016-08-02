@@ -15,7 +15,7 @@ echo -e Linux Build 19/7/16
 sleep 1
 echo -e Version 0.7.1 BETA Codename 'Silvia'
 sleep 1
-echo -e DO NOT distribute this BETA version, see comments in 
+echo -e DO NOT distribute this BETA version, see exceptions in the comments
 sleep 1
 echo -e Check out the patch thread at http://www.gtrcars.net/forum/showthread.php?t=1948
 sleep 1
