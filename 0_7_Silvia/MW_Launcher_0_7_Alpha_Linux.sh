@@ -4,25 +4,24 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #Need for Speed Most Wanted 1.4 and 2.0 Community Patch Launcher for UNIX-Like Operating Systems
 #Version 0.7.1 BETA Codename 'Silvia'
-#DO NOT DISTRIBUTE THIS BETA VERSION UNDER ANY CIRCUMSTANCE WITHOUT THE EXPLICIT PERMISSION OF EITHER LINUXFANATIC/HARU OR ARTUROPLAYERONE/ARTURO!
+#DO NOT DISTRIBUTE THIS BETA VERSION UNDER ANY CIRCUMSTANCE WITHOUT THE EXPLICIT PERMISSION OF ANY OF THE DEVELOPERS!
 #Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016
-#Do whatever you want with this, I don't care, as long as you redistribute your modified files under a FSF-certified License.
 echo -e NFSMW 1.4 and 2.0 Community Patch Launcher for UNIX-Like Operating Systems
 sleep 1
 echo -e Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016 under MPL 2.0 License
 sleep 1
-echo -e Linux Build 19/7/16
+echo -e Linux Build 4/8/16
 sleep 1
 echo -e Version 0.7.1 BETA Codename 'Silvia'
 sleep 1
-echo -e DO NOT distribute this BETA version, see exceptions in the comments
+echo -e DO NOT distribute this BETA version.
 sleep 1
 echo -e Check out the patch thread at http://www.gtrcars.net/forum/showthread.php?t=1948
 sleep 1
 #Comment out the next two lines if this is not your first time using this launcher.
 echo -e If this is your first time using this, make sure to have edited the launcher so that it knows where to look for the game.
 sleep 1
-echo -e Type the number for the version you want then press enter
+echo -e Type the number for the options you want then press enter
 read -p "Options:
 *1: ExOps and Mod Loader
 *2: Extops and no Mod Loader
