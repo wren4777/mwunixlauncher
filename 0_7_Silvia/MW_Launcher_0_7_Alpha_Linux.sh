@@ -3,11 +3,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #Need for Speed Most Wanted 1.4 and 2.0 Community Patch Launcher for UNIX-Like Operating Systems
-#Version 0.7.1 BETA Codename 'Silvia'
-#DO NOT DISTRIBUTE THIS BETA VERSION UNDER ANY CIRCUMSTANCE WITHOUT THE EXPLICIT PERMISSION OF ANY OF THE DEVELOPERS!
+#Version 0.7.1 Release Candidate 1 Codename 'Silvia'
 #Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016
 #I recommend using the R.G. Mechanics version of NFSMW. 
-#This launcher is preconfigured for it but you can edit lines 39 and 41
+#This launcher is preconfigured for it but you can edit the lines for options 3 and 4
 #to use a different version.
 echo -e NFS MW 1.4 and 2.0 Community Patch Launcher for UNIX-Like Operating Systems
 sleep 1
@@ -15,9 +14,7 @@ echo -e Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016 under MPL 2.0 Licens
 sleep 1
 echo -e Linux Build 4/8/16
 sleep 1
-echo -e Version 0.7.1 BETA Codename 'Silvia'
-sleep 1
-echo -e DO NOT distribute this BETA version.
+echo -e Version 0.7.1 Release Candidate 1 Codename 'Silvia'
 sleep 1
 echo -e Check out the patch thread at http://www.gtrcars.net/forum/showthread.php?t=1948
 sleep 1
