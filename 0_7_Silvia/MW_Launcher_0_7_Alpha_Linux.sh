@@ -6,6 +6,9 @@
 #Version 0.7.1 BETA Codename 'Silvia'
 #DO NOT DISTRIBUTE THIS BETA VERSION UNDER ANY CIRCUMSTANCE WITHOUT THE EXPLICIT PERMISSION OF ANY OF THE DEVELOPERS!
 #Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016
+#I recommend using the R.G. Mechanics version of NFSMW. 
+#This launcher is preconfigured for it but you can edit lines 39 and 41
+#to use a different version.
 echo -e NFS MW 1.4 and 2.0 Community Patch Launcher for UNIX-Like Operating Systems
 sleep 1
 echo -e Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016 under MPL 2.0 License
