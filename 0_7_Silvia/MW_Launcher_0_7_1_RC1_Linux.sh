@@ -21,7 +21,7 @@ sleep 1
 #Comment out the next two lines if this is not your first time using this launcher.
 echo -e If this is your first time using this, make sure to have edited the launcher so that it knows where to look for the game.
 sleep 1
-echo -e Type the number for the options you want then press enter
+echo -e Type the number for the option you want then press enter
 read -p "Options:
 *1: ExOps and Mod Loader
 *2: Extops and no Mod Loader
