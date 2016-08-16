@@ -23,18 +23,18 @@ echo -e If this is your first time using this, make sure to have edited the laun
 sleep 1
 echo -e Type the number for the options you want then press enter
 read -p "Options:
-*1: ExOps and Mod Loader
+*1: ExOpts and Mod Loader
 *2: Extops and no Mod Loader
-*3: No ExOps and Mod Loader
-*4: No ExOps and No Mod Loader" choice
+*3: No ExOpts and Mod Loader
+*4: No ExOpts and No Mod Loader" choice
 case "$choice" in 
-#Edit the next line to run with Mod Loader and with ExOps
+#Edit the next line to run with Mod Loader and with ExOpts
   1 ) /usr/share/playonlinux/playonlinux --run "speed" %F -mod;;
-#Edit the next line to run without Mod Loader but with ExOps
+#Edit the next line to run without Mod Loader but with ExOpts
   2 ) /usr/share/playonlinux/playonlinux --run "speed" %F;;
-#Edit the next line to run with Mod Loader but without ExOps
+#Edit the next line to run with Mod Loader but without ExOpts
   3 ) cd "/home/$USER/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/" && mv NFSMWExtraOptions.asi /home/$USER/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F -mod && cd /home/$USER/Documents && mv NFSMWExtraOptions.asi "/home/$USER/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/NFSMWExtraOptions.asi";;
-#Edit the next line to run without Mod Loader and without ExOps
+#Edit the next line to run without Mod Loader and without ExOpts
   4 ) cd "/home/$USER/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/" && mv NFSMWExtraOptions.asi /home/$USER/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F && cd /home/$USER/Documents && mv NFSMWExtraOptions.asi "/home/$USER/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/NFSMWExtraOptions.asi";;
   * ) echo "Invalid, please launch again";;
 esac
