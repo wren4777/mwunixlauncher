@@ -34,9 +34,9 @@ case "$choice" in
 #Edit the next line to run without Mod Loader but with ExOpts
   2 ) /usr/share/playonlinux/playonlinux --run "speed" %F;;
 #Edit the next line to run with Mod Loader but without ExOpts
-  3 ) cd $MWDIR && mv NFSMWExtraOptions.asi /home/$USER/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F -mod && cd /home/$USER/Documents && mv NFSMWExtraOptions.asi $MWDIR;;
+  3 ) cd "$MWDIR" && mv NFSMWExtraOptions.asi /home/$USER/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F -mod && cd /home/$USER/Documents && mv NFSMWExtraOptions.asi "$MWDIR";;
 #Edit the next line to run without Mod Loader and without ExOpts
-  4 ) cd $MWDIR && mv NFSMWExtraOptions.asi /home/$USER/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F && cd /home/$USER/Documents && mv NFSMWExtraOptions.asi $MWDIR;;
+  4 ) cd "$MWDIR" && mv NFSMWExtraOptions.asi /home/$USER/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F && cd /home/$USER/Documents && mv NFSMWExtraOptions.asi "$MWDIR";;
   * ) echo "Invalid, please launch again";;
 esac
 sleep 1
