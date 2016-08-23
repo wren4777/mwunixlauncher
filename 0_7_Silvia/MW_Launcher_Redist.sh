@@ -9,6 +9,7 @@
 #I recommend using the R.G. Mechanics version of NFSMW. 
 #This launcher is preconfigured for it but you can edit the lines for options 3 and 4
 #to use a different version.
+MWDIR="/home/$USER/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/"
 echo -e NFS MW Launcher for UNIX-Like Operating Systems
 sleep 1
 echo -e Copyleft Haru Jayasekara 2016 under MPL 2.0 License
@@ -34,10 +35,17 @@ case "$choice" in
 #Edit the next line to run without Mod Loader but with ExOpts
   2 ) /usr/share/playonlinux/playonlinux --run "speed" %F;;
 #Edit the next line to run with Mod Loader but without ExOpts
-  3 ) cd "/home/$USER/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/" && mv NFSMWExtraOptions.asi /home/$USER/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F -mod && cd /home/$USER/Documents && mv NFSMWExtraOptions.asi "/home/$USER/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/NFSMWExtraOptions.asi";;
+  3 ) cd "$MWDIR" && mv NFSMWExtraOptions.asi /home/$USER/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F -mod && cd /home/$USER/Documents && mv NFSMWExtraOptions.asi "$MWDIR";;
 #Edit the next line to run without Mod Loader and without ExOpts
-  4 ) cd "/home/$USER/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/" && mv NFSMWExtraOptions.asi /home/$USER/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F && cd /home/$USER/Documents && mv NFSMWExtraOptions.asi "/home/$USER/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/NFSMWExtraOptions.asi";;
+  4 ) cd "$MWDIR" && mv NFSMWExtraOptions.asi /home/$USER/Documents && /usr/share/playonlinux/playonlinux --run "speed" %F && cd /home/$USER/Documents && mv NFSMWExtraOptions.asi "$MWDIR";;
   * ) echo "Invalid, please launch again";;
+esac
+sleep 1
+exit
+
+
+
+
 esac
 sleep 1
 exit
