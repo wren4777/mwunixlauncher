@@ -14,7 +14,7 @@ echo -e NFS MW 1.4 and 2.0 Community Patch Launcher for UNIX-Like Operating Syst
 sleep 1
 echo -e Copyleft Haru Jayasekara and MW 1.4 Patch Team 2016 under MPL 2.0 License
 sleep 1
-echo -e Linux Build 9/10/16
+echo -e Linux Build 19/10/16
 sleep 1
 echo -e Version 0.7.2
 sleep 1
