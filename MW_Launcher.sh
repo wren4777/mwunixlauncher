@@ -8,7 +8,7 @@
 #I recommend using the R.G. Mechanics version of NFSMW. 
 #This launcher is preconfigured for it but you can edit the lines for options 3 and 4
 #to use a different version.
-MWDIR="/home/$USER/PlayOnLinux's virtual drives/NFSMW1.4/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/"
+MWDIR="/home/$USER/PlayOnLinux's virtual drives/NFSMW/drive_c/Program Files/R.G. Mechanics/Need for Speed - Most Wanted/scripts/"
 EOFILE=NFSMWExtraOptions.asi
 echo -e NFS MW Launcher for UNIX-Like Operating Systems
 sleep 1
