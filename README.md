@@ -9,7 +9,7 @@ is beneficial. The Launcher works best with the R.G. Mechanics version of MW.
 
 ###Installation instuctions:
 
-1. Install MW in PlayOnLinux. Call your executable shortcut 'speed' (without the inverted commas).
+1. Install MW in PlayOnLinux. Call your Wineprefix 'NFSMW' and the executable shortcut 'speed' (without the inverted commas).
 2. Install Arushan's MW Mod Loader. Leave all the settings to the default for now.
 3. Assuming you've extracted the Launcher executable to your Documents directory, 
 open a terminal and type this command (without the inverted commas): 'cd ~/Documents && chmod +x MW_Launcher_Redist.sh'.
