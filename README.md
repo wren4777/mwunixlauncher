@@ -1,5 +1,7 @@
 ##Need for Speed Most Wanted Launcher for UNIX-Like Operating Systems
 
+###WARNING: WINE 1.6.2 or lower is needed to run the game. If you are using Ubuntu 14.10 or above (including deriatives), you need to manually install WINE 1.62 using PlayOnLinux.
+
 ###Description:
 
 This project aims to provide a simple launcher to run NFS: MW on UNIX-Like operating systems. It is part of the NFS: MW 1.4 
