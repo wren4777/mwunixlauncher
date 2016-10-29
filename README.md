@@ -1,6 +1,6 @@
 ##Need for Speed Most Wanted Launcher for UNIX-Like Operating Systems
 
-###WARNING: WINE 1.6.2 or lower is needed to run the game. If you are using Ubuntu 14.10 or above (including deriatives), you need to manually install WINE 1.62 using PlayOnLinux.
+###WARNING: WINE 1.6.2 or lower is needed to run the game. If you are using Ubuntu 14.10 or above (including deriatives), you need to manually install WINE 1.6.2 using PlayOnLinux.
 
 ###Description:
 
